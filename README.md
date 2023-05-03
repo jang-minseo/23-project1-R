@@ -5,7 +5,33 @@
 - 벡터 변수 생성 및 초기화 후 table(벡터변수) 명령어를 이용
 
 ## 막대그래프
+```
+favorite <- c('Winter', 'Summer', 'Sprring', 'Summer', 'Summer', 'fail', 'fail', 'Summer', 'Spring', 'Summer', 'Summer')
+table(favorite)
+ds <- table(favorite)
+barplot(ds, main = 'Favorite Season', col = c('skyblue', 'azure2', 'gold', 'gray'), xlab='계절', ylab='빈도 수', horiz=TRUE)
+```
 
+## 색상 함수
+```
+colors()
+```
+
+## 히스토그램
+- 외관상 막대그래프와 비슷한 그래프
+- 그룹이 명시적으로 존재하지 않는 수치형 자료의 분포를 시각화할 때 사용
+```
+head(cars)
+dist <- cars[,2]
+dist
+hist(dist, main='Histogram for 제동거리', xlab='제동거리', ylab='빈도 수', border='blue', col='green', las=2, breaks=5)
+```
+## 선 그래프
+```
+month <- 1:12
+late <- c(5,7,6,5,4,3,2,1,2,3,12,13)
+plot(month, late, main='지각생 통계', type ='1', lty = 1, lwd = 1, xlab='Month', ylab ='Late cnt')
+```
 
 # [4월 13일]
 
