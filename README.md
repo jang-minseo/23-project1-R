@@ -11,7 +11,7 @@
 - 상관계수가 (-)인 경우 : X, Y가 반비례, 음의 상관관계에 있음
 - 상관계수가 (+)인 경우 : X, Y가 비례, 양의 상관관계에 있음
 
-### Pressure 데이터셋을 통해 기압과 온도 관계 분석
+### ＊ Pressure 데이터셋을 통해 기압과 온도 관계 분석
 ```
 head(pressure)
 
@@ -24,7 +24,7 @@ plot(pressure$temperature,
 ```
 ![image](https://github.com/jang-minseo/23-project1-R/assets/79886521/777eab3b-b5b3-4443-bef0-88dfa72a0765)
 
-### car 데이터셋을 이용한 산점도와 상관계수 계산
+### ＊ car 데이터셋을 이용한 산점도와 상관계수 계산
 ```
 head(cars)
 
