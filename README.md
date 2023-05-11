@@ -15,7 +15,7 @@ plot(pressure$temperature,
      ylab='기압',
 )
 ```
-http://127.0.0.1:22767/graphics/65550b87-5b0e-44c7-962d-21dbc4dba737.png
+![image](https://github.com/jang-minseo/23-project1-R/assets/79886521/777eab3b-b5b3-4443-bef0-88dfa72a0765)
 
 
 # [5월 4일]
