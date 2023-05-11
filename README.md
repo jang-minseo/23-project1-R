@@ -4,16 +4,19 @@
 
 ## 두 변수의 상관관계
 - 다중변수 데이터는 변수들의 개별 분석보다 변수 간의 관계를 찾는 것이 더 중요
+- Pressure 데이터셋을 통해 기압과 온도 관계 분석
 ```
 head(pressure)
 
 plot(pressure$temperature,
      pressure$pressure,
-     main='온도와 기암',
+     main='온도와 기압',
      xlab='온도(화씨)',
      ylab='기압',
 )
 ```
+http://127.0.0.1:22767/graphics/65550b87-5b0e-44c7-962d-21dbc4dba737.png
+
 
 # [5월 4일]
 
