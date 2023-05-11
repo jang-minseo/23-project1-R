@@ -4,7 +4,14 @@
 
 ## 두 변수의 상관관계
 - 다중변수 데이터는 변수들의 개별 분석보다 변수 간의 관계를 찾는 것이 더 중요
-- Pressure 데이터셋을 통해 기압과 온도 관계 분석
+- '두 변수가 상관 관계에 있다' = x축 변수 값이 증가하면 y축 변수 값이 비례해서 증가하거나 감소하는 경우
+
+## 상관계수 : 상관관계를 수치로 나타낸 -1에서 1사이 의 값
+- 상관계수가  0 인 경우 : X, Y가 상관사이를 나타내기 어려움
+- 상관계수가 (-)인 경우 : X, Y가 반비례, 음의 상관관계에 있음
+- 상관계수가 (+)인 경우 : X, Y가 비례, 양의 상관관계에 있음
+
+### Pressure 데이터셋을 통해 기압과 온도 관계 분석
 ```
 head(pressure)
 
@@ -16,6 +23,19 @@ plot(pressure$temperature,
 )
 ```
 ![image](https://github.com/jang-minseo/23-project1-R/assets/79886521/777eab3b-b5b3-4443-bef0-88dfa72a0765)
+
+### car 데이터셋을 이용한 산점도와 상관계수 계산
+```
+head(cars)
+
+plot(cars$speed,
+     cars$dist,
+     main='자동차 속도와 제동거리',
+     xlab='속도',
+     ylab='제동거리',
+)
+```
+![image](https://github.com/jang-minseo/23-project1-R/assets/79886521/00d63b81-8168-492f-bd1a-1ed8a997507e)
 
 
 # [5월 4일]
