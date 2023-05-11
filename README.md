@@ -35,7 +35,7 @@ plot(cars$speed,
      ylab='제동거리',
 )
 ```
-![image](https://github.com/jang-minseo/23-project1-R/assets/79886521/00d63b81-8168-492f-bd1a-1ed8a997507e)
+![image](https://github.com/jang-minseo/23-project1-R/assets/79886521/42d6fa36-8e38-4e63-bcfb-73255c88f433)
 
 
 # [5월 4일]
