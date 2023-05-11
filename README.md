@@ -34,10 +34,14 @@ plot(cars$speed,
      xlab='속도',
      ylab='제동거리',
 )
+
+cor(cars$speed, cars$dist) = 0.8068949
 ```
 ![image](https://github.com/jang-minseo/23-project1-R/assets/79886521/42d6fa36-8e38-4e63-bcfb-73255c88f433)
 
-
+## 다중변수 사이의 상관관계
+- 상관계수를 구하는 cor() 함수에 2개의 변수가 아닌 3개 이상의 변수 데이터를 입력하면 다중 산점도와 비슷한 형태의 결과가 나타남
+- 상관관계는 인과관계를 의미하진 않음
 # [5월 4일]
 
 ## 상자 그림
