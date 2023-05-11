@@ -60,7 +60,7 @@ z <- c(1,2,3,NA,5,NA,8)
 sum(z)
 is.na(z)
 sum(is.na(z))
-sum(z, na.rm=TRUE) = 19 ( Z에서 NA를 찾아 NA를 제외한 값을 더함 )
+sum(z, na.rm=TRUE) # 결과값 19
 ```
 ```
 z1 <- c(1,2,3,NA,5,NA,8)
@@ -69,7 +69,7 @@ z1[is.na(z1)] <- 0               # NA를 0으로 치환
 z1                               # 1 2 3 0 5 0 8 
 z3 <- as.vector(na.omit(z2))     # Z2의 0을 삭제
 z3                               # 5 8 1 3 7
-```
+``` 
 # [5월 4일]
 
 ## 상자 그림
