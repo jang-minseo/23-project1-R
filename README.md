@@ -1,4 +1,20 @@
 # 602377113 장민서
+
+# [5월 11일]
+
+## 두 변수의 상관관계
+- 다중변수 데이터는 변수들의 개별 분석보다 변수 간의 관계를 찾는 것이 더 중요
+```
+head(pressure)
+
+plot(pressure$temperature,
+     pressure$pressure,
+     main='온도와 기암',
+     xlab='온도(화씨)',
+     ylab='기압',
+)
+```
+
 # [5월 4일]
 
 ## 상자 그림
